@@ -8,7 +8,7 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 setInterval(() => {
-  https.get('idk-ry46.onrender.com');//put the .co link generated in repl here
+  https.get('https://energetic-sneakers-bee.cyclic.app');//put the .co link generated in repl here
 }, 1);
 
 var shell = require('shelljs');
